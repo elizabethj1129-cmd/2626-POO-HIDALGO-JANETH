@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./PARCIAL 1/semana 6/restaurante_app"
+    ]
+}
