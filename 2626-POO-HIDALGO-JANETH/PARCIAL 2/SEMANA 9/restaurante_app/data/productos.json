@@ -1,0 +1,12 @@
+{
+  "px": {
+    "nombre": "ProdX",
+    "categoria": "CatX",
+    "precio": 5.5
+  },
+  "ProdY": {
+    "nombre": "AMBURGUESAS",
+    "categoria": "COMIDA RAPIDA",
+    "precio": 3.0
+  }
+}
