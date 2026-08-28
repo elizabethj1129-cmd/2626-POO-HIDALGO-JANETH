@@ -1,6 +1,6 @@
 # Sistema de Restaurante (Aplicación SOLID)
 
-**Autor:** (Tu Nombre Completo)
+**Autor:** (Janeth Hidalgo)
 **Asignatura:** Programación Orientada a Objetos - Semana 8
 
 ## Descripción del Sistema
