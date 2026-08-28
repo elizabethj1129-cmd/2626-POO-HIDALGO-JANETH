@@ -1,0 +1,290 @@
+                    ╔═════════════════════════════════════╗
+                    ║    🎓 BIENVENIDA - SEMANA 11 🎓    ║
+                    ║   restaurante_app - Semana 11      ║
+                    ║   POO - Programación Orientada     ║
+                    ║        a Objetos                   ║
+                    ╚═════════════════════════════════════╝
+
+                           ✅ PROYECTO COMPLETADO ✅
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 ¿QUÉ TIENES AQUÍ?
+
+   Un proyecto completo de Python que implementa un sistema de restaurante
+   con capacidades de venta de productos, gestión de usuarios y persistencia
+   de datos en archivos JSON.
+
+   ✨ LO MÁS IMPORTANTE:
+   • Nuevo modelo: Clase VENTA que relaciona Usuario + Producto
+   • Nueva operación: VENDER PRODUCTO (con validaciones)
+   • Nueva consulta: VER VENTAS DE UN USUARIO
+   • Persistencia: 3 archivos JSON (productos, usuarios, ventas)
+   • Documentación: 7 archivos guía para cada aspecto
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 ¿CÓMO EMPIEZO? (3 PASOS)
+
+   PASO 1: Cargar datos de ejemplo
+   ────────────────────────────────
+   $ python cargar_datos_ejemplo.py
+
+   Esto crea:
+   • 5 productos (Hamburguesa, Pizza, Ensalada, Refresco, Helado)
+   • 4 usuarios (Juan, María, Carlos, Ana)
+   • 5 ventas de ejemplo
+
+
+   PASO 2: Ejecutar el programa
+   ────────────────────────────
+   $ python restaurante_app/main.py
+
+   Se muestra un menú interactivo con 11 opciones
+
+
+   PASO 3: Probar una venta
+   ───────────────────────
+   Opción del menú: 9
+   Identificación del usuario: 1001
+   Código del producto: P001
+   Cantidad a vender: 2
+
+   ✓ Venta registrada exitosamente
+   ✓ Stock disminuido automáticamente
+   ✓ Datos guardados en JSON
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📖 ¿DÓNDE BUSCO INFORMACIÓN?
+
+   🔰 Quiero empezar rápido
+   └─→ Lee: INICIO_RÁPIDO.md
+
+   📚 Quiero entender todo
+   └─→ Lee: README.md
+
+   📋 Quiero instrucciones paso a paso
+   └─→ Lee: INSTRUCCIONES.md
+
+   🗺️  Quiero navegar la documentación
+   └─→ Lee: ÍNDICE.md
+
+   ⚡ Quiero referencia en una página
+   └─→ Lee: REFERENCIA_RÁPIDA.md
+
+   ✅ Quiero verificar que todo funciona
+   └─→ Ejecuta: python verificar_estructura.py
+
+   🧪 Quiero ver pruebas automatizadas
+   └─→ Ejecuta: python test_restaurante.py
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📁 ESTRUCTURA DEL PROYECTO
+
+   restaurante_app/                    ← La aplicación
+   ├── main.py                         ← Ejecutar este archivo
+   ├── modelos/                        ← Clases de datos
+   │   ├── producto.py                 (ahora con STOCK)
+   │   ├── usuario.py
+   │   └── venta.py                    (NUEVO)
+   ├── servicios/                      ← Lógica de negocio
+   │   ├── archivo_servicio.py         (persiste JSON)
+   │   └── restaurante.py              (vender_producto, etc)
+   └── datos/                          ← Archivos JSON
+       ├── productos.json
+       ├── usuarios.json
+       └── ventas.json
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✨ CARACTERÍSTICAS PRINCIPALES
+
+   1️⃣  NUEVO: Clase Venta
+       Relaciona un Usuario con un Producto que compró.
+       Ejemplo: Juan compró una Hamburguesa (2 unidades)
+
+   2️⃣  NUEVO: Operación Vender
+       • Valida que el usuario exista
+       • Valida que el producto exista
+       • Valida que la cantidad sea válida
+       • Valida que haya stock suficiente
+       • Si todo es OK: registra la venta y disminuye stock
+
+   3️⃣  NUEVO: Consultar Ventas de Usuario
+       Muestra todas las compras que hizo un usuario.
+       Ejemplo: Ver todas las compras de Juan
+
+   4️⃣  PERSISTENCIA COMPLETA
+       • productos.json - Productos con su stock actualizado
+       • usuarios.json - Usuarios registrados
+       • ventas.json - Historial de todas las ventas
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💡 CONCEPTOS APRENDIDOS
+
+   ✓ Relaciones entre objetos (Usuario, Producto, Venta)
+   ✓ Persistencia de datos con JSON
+   ✓ Validación de operaciones de negocio
+   ✓ Manejo de excepciones
+   ✓ Colecciones en Python
+   ✓ Separación de responsabilidades
+   ✓ Documentación profesional
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚙️  EL MENÚ PRINCIPAL TIENE 11 OPCIONES
+
+   PRODUCTOS (Opciones 1-5)
+   ├─ 1. Registrar producto (con stock)
+   ├─ 2. Buscar producto
+   ├─ 3. Actualizar producto
+   ├─ 4. Eliminar producto
+   └─ 5. Listar productos
+
+   USUARIOS (Opciones 6-7)
+   ├─ 6. Registrar usuario
+   └─ 7. Listar usuarios
+
+   CONSULTAS (Opción 8)
+   └─ 8. Mostrar categorías
+
+   VENTAS (Opciones 9-10) ⭐ NUEVAS
+   ├─ 9. Vender producto
+   └─ 10. Consultar ventas de usuario
+
+   SISTEMA (Opción 11)
+   └─ 11. Salir
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+❓ PREGUNTAS FRECUENTES
+
+   P: ¿Necesito instalar algo?
+   R: No. Solo Python 3.7+ (ya incluido en Windows)
+
+   P: ¿Dónde se guardan los datos?
+   R: En restaurante_app/datos/ (archivos JSON)
+
+   P: ¿Los datos se pierden al cerrar?
+   R: No. Se guardan automáticamente en JSON y se recuperan al abrir
+
+   P: ¿Puedo vender más de lo que hay en stock?
+   R: No. El sistema rechaza la venta y muestra un mensaje de error
+
+   P: ¿Qué cambió respecto a Semana 10?
+   R: Se agregaron: Venta, usuarios persistidos, ventas persistidas
+
+   P: ¿Cómo lo subo a GitHub?
+   R: Lee INSTRUCCIONES.md (sección "Para GitHub")
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 FLUJO DE UNA VENTA TÍPICA
+
+   Usuario selecciona OPCIÓN 9
+         ↓
+   Sistema pregunta:
+   • ¿Identificación del usuario? 1001
+   • ¿Código del producto? P001
+   • ¿Cantidad? 2
+         ↓
+   Sistema valida:
+   ✓ Usuario 1001 existe
+   ✓ Producto P001 existe
+   ✓ Cantidad 2 > 0
+   ✓ Stock disponible 15 ≥ 2
+         ↓
+   Sistema procesa:
+   • Crea objeto Venta
+   • Disminuye stock de 15 a 13
+   • Guarda cambios en JSON
+         ↓
+   Sistema muestra:
+   "✓ Venta registrada exitosamente"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ VERIFICACIÓN RÁPIDA
+
+   Ejecuta esto para verificar que todo funciona:
+
+   $ python verificar_estructura.py
+
+   Deberá mostrar:
+   ✓ ESTRUCTURA CORRECTA - Todos los archivos presentes
+   ✓ CONTENIDO VALIDADO - Archivos tienen contenido válido
+   ✓ ARCHIVOS JSON VALIDADOS
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🧪 EJECUTAR PRUEBAS
+
+   $ python test_restaurante.py
+
+   Esto valida:
+   • Creación de productos
+   • Creación de usuarios
+   • Creación de ventas
+   • Operaciones de venta
+   • Persistencia JSON
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📚 ARCHIVOS DE DOCUMENTACIÓN INCLUIDOS
+
+   1. INICIO_RÁPIDO.md         ← Comienza aquí (3 pasos)
+   2. README.md                ← Documentación completa
+   3. INSTRUCCIONES.md         ← Uso paso a paso
+   4. REFERENCIA_RÁPIDA.md     ← En una página
+   5. ÍNDICE.md                ← Mapa de documentación
+   6. RESUMEN_ENTREGA.md       ← Checklist completo
+   7. RESUMEN_EJECUTIVO.md     ← Síntesis de logros
+
+   BONUS:
+   • ESTRUCTURA.md             ← Visualización del proyecto
+   • COMPLETADO.txt            ← Este resumen
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎓 ¿QUÉ APRENDISTE?
+
+   Semana 11 te enseña:
+
+   • Cómo relacionar objetos (Usuario → Venta ← Producto)
+   • Cómo persistir datos con JSON
+   • Cómo validar operaciones de negocio
+   • Cómo manejar excepciones adecuadamente
+   • Cómo documentar código profesionalmente
+   • Cómo separar responsabilidades (modelos, servicios, presentación)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 PRÓXIMO PASO
+
+   Ejecuta esto ahora mismo:
+
+   $ python cargar_datos_ejemplo.py
+   $ python restaurante_app/main.py
+
+   ¡Y disfruta el programa!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+                        ✨ ¡BIENVENIDO! ✨
+
+              El proyecto está 100% completo y listo para usar.
+          Toda la documentación está en archivos .md en este directorio.
+
+               ¿Preguntas? Lee la documentación correspondiente.
+                ¿Quieres empezar? Lee INICIO_RÁPIDO.md
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Realizado por: GitHub Copilot
+Fecha: 26 de agosto de 2026
+Versión: 1.0 - Production Ready
+Estado: ✅ COMPLETADO Y VERIFICADO
+
