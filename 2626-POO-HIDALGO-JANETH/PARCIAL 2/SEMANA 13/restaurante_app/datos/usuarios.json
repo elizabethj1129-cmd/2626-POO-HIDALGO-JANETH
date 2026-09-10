@@ -1,0 +1,21 @@
+[
+  {
+    "identificacion": "12345",
+    "nombre": "Juan Pérez",
+    "correo": "juan.perez@email.com",
+    "contraseña": "1234"
+  },
+  {
+    "identificacion": "67890",
+    "nombre": "María García",
+    "correo": "maria.garcia@email.com",
+    "contraseña": "5678"
+  },
+  {
+    "identificacion": "11111",
+    "nombre": "Carlos López",
+    "correo": "carlos.lopez@email.com",
+    "contraseña": "9999"
+  }
+]
+
