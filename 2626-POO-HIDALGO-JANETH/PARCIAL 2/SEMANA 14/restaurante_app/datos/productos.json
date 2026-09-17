@@ -1,0 +1,45 @@
+[
+  {
+    "codigo": "P001",
+    "nombre": "Hamburguesa Clásica",
+    "categoria": "Platos Principales",
+    "precio": 8.50,
+    "stock": 20
+  },
+  {
+    "codigo": "P002",
+    "nombre": "Pizza Margarita",
+    "categoria": "Platos Principales",
+    "precio": 12.00,
+    "stock": 15
+  },
+  {
+    "codigo": "P003",
+    "nombre": "Ensalada César",
+    "categoria": "Ensaladas",
+    "precio": 7.50,
+    "stock": 25
+  },
+  {
+    "codigo": "P004",
+    "nombre": "Pasta Carbonara",
+    "categoria": "Pastas",
+    "precio": 10.50,
+    "stock": 18
+  },
+  {
+    "codigo": "P005",
+    "nombre": "Jugo Natural",
+    "categoria": "Bebidas",
+    "precio": 3.50,
+    "stock": 50
+  },
+  {
+    "codigo": "P006",
+    "nombre": "Postre de Chocolate",
+    "categoria": "Postres",
+    "precio": 5.00,
+    "stock": 12
+  }
+]
+
