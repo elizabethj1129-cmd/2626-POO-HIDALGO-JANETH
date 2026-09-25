@@ -1,0 +1,18 @@
+[
+  {
+    "id_venta": "273a4560-83c7-46dd-b06d-1cab44a886f7",
+    "usuario_identificacion": "12345",
+    "producto_codigo": "P002",
+    "cantidad": 1,
+    "total": 0.0,
+    "fecha": "2026-09-24T18:29:03.245482"
+  },
+  {
+    "id_venta": "fa87f2d6-90e5-48c9-b39b-193eeb7c2906",
+    "usuario_identificacion": "12345",
+    "producto_codigo": "P002",
+    "cantidad": 2,
+    "total": 24.0,
+    "fecha": "2026-09-24T19:18:16.453569"
+  }
+]
