@@ -1,8 +1,8 @@
-# Restaurante App - Semana 15
+# Restaurante App - Semana 16
 
-Este proyecto es una aplicación de gestión para un restaurante con interfaz gráfica construida en Tkinter, la cual ha sido evolucionada para incluir el registro de **Ventas**.
+Este proyecto es una aplicación de gestión para un restaurante con interfaz gráfica construida en Tkinter, la cual ha sido evolucionada para incluir la gestión avanzada de usuarios con eventos.
 
-## Fundamentos de Eventos (Semana 15)
+## Gestión de Usuarios y Eventos (Semana 16)
 Se ha implementado el fundamento principal de manejo de eventos, demostrando el flujo de acción en la interfaz hacia la lógica de negocio y persistencia:
 `Acción del usuario` → `Botón (command=)` → `Callback` → `Servicio (Lógica + Persistencia)` → `Actualización Visual`
 
